@@ -1,0 +1,116 @@
+/* Home.css */
+
+.container.home_container {
+    min-height: 60vh;
+    width: 75%;
+    background-image: url('https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home_innerdiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left_div {
+    margin-top: 95px;
+    max-width: 430px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+  }
+  
+  .left_div h2 {
+    color: #6c63ff;
+  }
+  
+  .left_div p {
+    color: #666;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  
+  .btn_div {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: scale(1.05); /* Hover effect - scale up the button */
+  }
+  
+  .right_div img {
+    width: 480px;
+    border-radius: 10px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 995px) {
+    .home_innerdiv {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .left_div {
+      margin-top: 95px;
+      max-width: 630px;
+      margin: 60px auto;
+    }
+    .right_div img {
+      max-width: 680px;
+    }
+  }
+  
+  @media (max-width: 568px) {
+    .home_innerdiv {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+    }
+    .left_div {
+      margin-top: 95px;
+      max-width: 630px;
+      margin: 60px auto;
+    }
+    .right_div img {
+      max-width: 380px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .right_div img {
+      max-width: 280px;
+    }
+  }
+  /* Add this to your Home.css */
+
+.right_div .profile-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Hides overflow outside of the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right_div .profile-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Keeps the image contained within the circle */
+  }
+  
