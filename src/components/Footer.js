@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="third mt-5">
   <h4>About</h4>
   <p>Flow by Resume</p>
-  <a href="https://drive.google.com/file/d/1GfaDIuxtC7Utqtbgs2qdbSe0eWFqRBOf/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+  <a href="https://drive.google.com/file/d/17O4wDv91_8MR81Rc9BPHrtUBj5C4wize/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     Download Resume (PDF)
   </a>
 </div>
