@@ -53,8 +53,9 @@ const Header = () => {
                             <NavLink to="/about" className="text-decoration-none  mb-2" style={common}>About</NavLink>
                             <NavLink to="/playlist" className="text-decoration-none  mb-2" style={common}>Project</NavLink>
                             <NavLink to="/contact" className="text-decoration-none  mb-2" style={common}>Contact</NavLink>
+                            <NavLink to="/certificate" className="text-decoration-none" style={common}>certificate</NavLink>
                             <div>
-                                <Button variant="danger" style={{ letterSpacing: ".5px", marginLeft: -15 }}><a href="https://www.youtube.com/c/HarshPathakNV" target="_blank" className="text-decoration-none text-light">Youtube</a></Button>
+                                <Button variant="danger" style={{ letterSpacing: ".5px", marginLeft: -15 }}><a href="https://www.youtube.com" target="_blank" className="text-decoration-none text-light">Youtube</a></Button>
                             </div>
                         </div>
                     </Offcanvas.Body>
